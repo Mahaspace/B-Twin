@@ -1,0 +1,12 @@
+EMBEDDING_DIM = 64
+HIDDEN_SIZE = 128
+BETA = 0.005  # KL divergence weight
+# GAMMA = 0.1  #  propensity loss weight
+GAMMA = 0.1
+LAMBDA = 0.7  # matching loss weights
+ALPHA = 1
+L1 = 1  # balancing l1 and l2 loss
+DROPOUT_RATE = 0.3  # dropout to avoid overfitting
+GRAD_CLIP = 1.0  # Gradient clipping to stabilize training
+EPSILON = 1e-3
+PROPENSITY_HIDDEN_DIMS = [50, 40, 30, 20, 10]

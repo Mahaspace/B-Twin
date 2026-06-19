@@ -1,0 +1,24 @@
+[project]
+name = "b-twin-causal-inference"
+version = "0.1.0"
+description = "Neural framework for estimating treatment eefects"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cvxpy==1.6.0",
+    "dtaidistance==2.3.12",
+    "joblib==1.4.2",
+    "lightgbm==4.6.0",
+    "matplotlib==3.8.2",
+    "numpy==1.26.4",
+    "optuna==4.1.0",
+    "osqp==0.6.7.post3",
+    "pandas==2.2.3",
+    "scikit-learn==1.6.0",
+    "scipy==1.14.0",
+    "scs==3.2.7.post2",
+    "seaborn==0.13.2",
+    "statsmodels==0.14.4",
+    "torch==2.3.1",
+    "tqdm==4.66.4",
+]
